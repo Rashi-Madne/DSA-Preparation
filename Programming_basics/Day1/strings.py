@@ -1,3 +1,4 @@
+#strings
 name="           Rashi Rohit madne"
 print(name[0])
 print(name[1])
@@ -14,3 +15,8 @@ print(name.upper())
 print(name.lower())
 print(name.strip())
 print(name.replace("m","M"))
+
+print()
+
+sentence="My name is Rashi"
+print(sentence.replace("a","@"))
