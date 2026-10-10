@@ -26,3 +26,13 @@ print()
 
 print(len(roll_no))
 
+print()
+
+#slicing
+numbers=[54,23,61,21,65,22]
+print(numbers[0:3])
+print(numbers[-1:-3]) #prints empty list because python doesnt go right to left
+print(numbers[-1:-3:-1]) #third -1 tells to move backwards
+
+
+
