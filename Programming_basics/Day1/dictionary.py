@@ -15,3 +15,9 @@ print()
 
 print(student.pop("age"))
 print(student)
+
+print()
+
+#looping through a dictionary
+for key in student:
+    print(key,student[key])
