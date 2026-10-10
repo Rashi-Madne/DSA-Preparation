@@ -34,5 +34,30 @@ print(numbers[0:3])
 print(numbers[-1:-3]) #prints empty list because python doesnt go right to left
 print(numbers[-1:-3:-1]) #third -1 tells to move backwards
 
+print()
 
+numbers=[10,20,30,40,50]
+total=0
+for num in numbers:
+    total+=num
+print(total)
 
+print()
+
+#code2
+nums=[12,45,7,89,34]
+largest=nums[0]
+for num in nums:
+    if num>largest:
+        largest=num
+print(largest) 
+
+print()
+
+#code3
+nums=[12,7,8,15,20,3,6]
+even_nums=0
+for num in nums:
+    if num%2==0:
+        even_nums+=1
+print(even_nums)
