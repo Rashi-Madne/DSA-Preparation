@@ -62,3 +62,13 @@ def run_cal():
     print(f"Division = {div(x,y)}")
 
 run_cal()
+
+print()
+
+#code7
+# Define a function describe_pet(animal_type, pet_name) that prints a description of a pet. Call this function twice: once using positional arguments and once using keyword arguments.
+def describe_pet(animal,pet_name):
+    print(f"I have a {animal} whose name is {pet_name}")
+
+describe_pet("Dog","Zoro") #positional argument
+describe_pet(animal="Dog",pet_name="Jojo")  #kyword argument
