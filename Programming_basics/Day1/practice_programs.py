@@ -50,5 +50,9 @@ fruits=[fruit.strip() for fruit in FRUIT.split(",")]
 fr_dict={fruit:len(fruit) for fruit in fruits}
 print(fr_dict)
 
-
-
+#code6
+def is_balanced(text):
+    matching_pairs={"(":")","{":"}","[":"]"}
+    str=[]
+    for char in text:
+                                                                                      

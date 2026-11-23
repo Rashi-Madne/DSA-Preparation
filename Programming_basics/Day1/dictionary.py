@@ -56,3 +56,4 @@ total=0
 for mark in marks.values():
     total+=mark
 print(total)
+
